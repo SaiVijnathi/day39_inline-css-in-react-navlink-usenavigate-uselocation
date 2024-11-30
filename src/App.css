@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  background-color: white;
+  width: 600px;
+  margin: auto;
+  border-radius: 30px;
+}
+
+body{
+  background-color: skyblue;
+}
+
+label{
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
+
+h2{
+  color: skyblue;
+}
+
+form{
+  font-size: 1.3rem;
+  padding: 1px 0 10px 0;
+  margin-top: 50px;
+}
+
+form div{
+  margin-bottom: 15px;
+}
+
+#file{
+  text-align: center;
+  padding-left: 45px;
+}
+
+form input{
+  font-size: 1.05rem;
+}
+
+button{
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+  background-color: skyblue;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: white;
+  color: skyblue;
+  border: 2px solid skyblue;
+}
+
+nav{
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(240, 209, 125);
+}
+
+.active{
+  background-color: white;
+  color: orange;
+  text-decoration: none;
+}
